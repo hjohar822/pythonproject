@@ -1,0 +1,36 @@
+Minimum requirements: read
+the data, set/reset index, deal with missing data, data type conversion, sort, obtain subsets
+of the data, generate new columns, groupby, merge tables, aggregation (mean, median, min,
+etc.), correlation...
+
+Data collection process
+Step-by-step data clean and manipulation process
+The results of the analysis (tables, charts, graphs, correlations, descriptive text, etc...)
+
+Research Questions:
+1. How does vehicle age affect charging cost efficiency, controlling for vehicle model and battery capacity?
+2. How do charging patterns vary across user types (Commuters vs. Long-Distance Travelers) based on the day of the week, time of day, and the amount of battery percentage charged per session?
+3. How does the ambient temperature affect energy consumption during charging sessions?
+ 
+Key Features of the dataset:
+
+User ID: Unique identifier for each user.
+Vehicle Model: Model of the electric vehicle being charged (e.g., Tesla Model 3, Nissan Leaf).
+Battery Capacity (kWh): Total battery capacity of the vehicle in kilowatt-hours.
+Charging Station ID: Unique identifier for the charging station used.
+Charging Station Location: Geographic location of the charging station (e.g., New York, Los Angeles).
+Charging Start Time: Timestamp indicating when the charging session began.
+Charging End Time: Timestamp indicating when the charging session ended.
+Energy Consumed (kWh): Total energy consumed during the charging session, measured in kilowatt-hours.
+Charging Duration (hours):Total time taken to charge the vehicle, measured in hours.
+Charging Rate (kW): Average power delivery rate during the charging session, measured in kilowatts.
+Charging Cost (USD): Total cost incurred for the charging session, measured in US dollars.
+Time of Day: Time segment when the charging occurred (e.g., Morning, Afternoon).
+Day of Week: Day of the week when the charging occurred (e.g., Monday, Tuesday).
+State of Charge (Start %): Battery charge percentage at the start of the charging session.
+State of Charge (End %): Battery charge percentage at the end of the charging session.
+Distance Driven (since last charge) (km): Distance traveled since the last charging session, measured in kilometers.
+Temperature (°C): Ambient temperature during the charging session, measured in degrees Celsius.
+Vehicle Age (years): Age of the electric vehicle, measured in years.
+Charger Type: Type of charger used (e.g., Level 1, Level 2, DC Fast Charger).
+User Type: Classification of user based on driving habits (e.g., Commuter, Long-Distance Traveler).
